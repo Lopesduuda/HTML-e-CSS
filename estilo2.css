@@ -1,0 +1,148 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1px;
+    margin-left: 100px;
+    background-color: rgba(240, 235, 235, 0.897);
+}
+
+
+.hero nav ul{
+    display: block;
+    float: right;
+    background-color: rgb(7, 7, 48);
+    border-radius: 20px;
+    padding: 10px;
+    list-style: none;
+}
+
+.hero nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.hero nav h1{
+    display:block;
+    float: left;
+    
+    
+}
+
+
+
+.hero{
+    display: block;
+    background-image: url(../Desafio1/Foto\ fundo.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.hero-content p{
+    display: block;
+    box-sizing: border-box;
+    color: rgb(163, 163, 163);
+}
+
+.hero-content a{
+    background-color: rgb(216, 9, 147);
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.hero-content{
+    clear: both;
+    display: block;
+    float: left;
+    border: 2px solid blue;
+    padding: 60px 0;
+    
+}
+
+main{
+    clear: both;
+    display: block;
+    
+    margin: auto;
+    
+}
+
+.content-section{
+    
+    border: 2px solid blue;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card{
+    width: 30%;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 20px;
+    background-color: rgb(255, 254, 254);
+    margin: 1%;
+    
+}
+
+
+    .card-1{
+        display: inline-block;
+        border: 2px solid blue;
+        background-color: rgb(226, 33, 184);
+        padding: 55px;
+        
+       
+    }
+
+    .card-2{
+        display: inline-block;
+        border: 2px solid blue;
+        padding: 10px;
+      
+    }
+
+    .card-3{
+        display: inline-block;
+        border: 2px solid blue;
+        padding: 20px;
+      
+    }
+
+    .card-4{
+        display: inline-block;
+        border: 2px solid blue;
+        padding: 20px;
+       
+    }
+
+    .card-5{
+        display: inline-block;
+        border: 2px solid blue;
+        padding: 20px;
+       
+    }
+
+    .card-6{
+        display: inline-block;
+        border: 2px solid blue;
+        padding: 20px;
+         
+    }
+
+    .card p{
+        color: rgb(163, 163, 163) ; 
+    }
+
+    .card-1 p{
+        color: white;
+    }
+
+    .card a{
+        color: rgb(192, 11, 122);
+    }
+    
+    
