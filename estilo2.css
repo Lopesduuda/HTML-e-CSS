@@ -2,7 +2,6 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 1px;
     margin-left: 100px;
-    background-color: rgba(240, 235, 235, 0.897);
 }
 
 
@@ -32,7 +31,6 @@ body{
 
 .hero{
     display: block;
-    background-image: url(../Desafio1/Foto\ fundo.png);
     background-position: right;
     background-repeat: no-repeat;
     background-size:contain;
@@ -40,7 +38,7 @@ body{
 
 .hero-content p{
     display: block;
-    box-sizing: border-box;
+    
     color: rgb(163, 163, 163);
 }
 
@@ -71,78 +69,31 @@ main{
 }
 
 .content-section{
-    
-    border: 2px solid blue;
-    padding: 15px;
-    margin-top: 15px;
     overflow: auto;
+    border: 2px solid blue;
 }
 
-.card{
-    width: 30%;
-    box-sizing: border-box;
-    float: left;
-    border-radius: 20px;
-    background-color: rgb(255, 254, 254);
-    margin: 1%;
-    
+div{
+    display: inline-block;
+    margin-block: 5px;
 }
-
 
     .card-1{
         display: inline-block;
         border: 2px solid blue;
-        background-color: rgb(226, 33, 184);
-        padding: 55px;
+        background-color: pink;
+        padding: 1px;
         
-       
+        
+        
+        
     }
 
     .card-2{
         display: inline-block;
         border: 2px solid blue;
-        padding: 10px;
-      
+        padding: 20px 0;
+        
+        
+        
     }
-
-    .card-3{
-        display: inline-block;
-        border: 2px solid blue;
-        padding: 20px;
-      
-    }
-
-    .card-4{
-        display: inline-block;
-        border: 2px solid blue;
-        padding: 20px;
-       
-    }
-
-    .card-5{
-        display: inline-block;
-        border: 2px solid blue;
-        padding: 20px;
-       
-    }
-
-    .card-6{
-        display: inline-block;
-        border: 2px solid blue;
-        padding: 20px;
-         
-    }
-
-    .card p{
-        color: rgb(163, 163, 163) ; 
-    }
-
-    .card-1 p{
-        color: white;
-    }
-
-    .card a{
-        color: rgb(192, 11, 122);
-    }
-    
-    
